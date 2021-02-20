@@ -1,0 +1,28 @@
+{
+  "name": "@riskshield/core",
+  "version": "1.0.1",
+  "description": "Core contracts for the RiskShield",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riskshield-org/riskshield-core.git"
+  },
+  "author": "RiskShield",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/riskshield-org/riskshield-core/issues"
+  },
+  "homepage": "https://github.com/riskshield-org/riskshield-core#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "web3": "^1.3.4"
+  }
+}
