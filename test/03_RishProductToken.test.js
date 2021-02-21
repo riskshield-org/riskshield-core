@@ -4,7 +4,7 @@ const ConStakingPool = artifacts.require("StakingPool");
 const RISHToken = require("../RISHToken.js");
 const RishController = require("../RishController.js");
 const StakingPoolToken = require("../StakingPoolToken.js");
-//const updateProduct = require("../updateProduct.js");
+
 const utils = require("../lib/utils.js")(web3);
 const config=require("../config/config.js")(web3);
 
